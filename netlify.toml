@@ -1,0 +1,5 @@
+# Netlify hosts the team's draft preview (draft--choppedsc-site.netlify.app).
+# The public site (getchoppedla.com) is served by GitHub Pages and is not affected.
+# Plain HTML: no build step, publish the repo root.
+[build]
+  publish = "."
